@@ -5,8 +5,17 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>demo-project</artifactId>
+    <groupId>com.demo</groupId>
+    <artifactId>simple-project</artifactId>
     <version>1.0</version>
+
+    <build>
+        <sourceDirectory>.</sourceDirectory>
+    </build>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
 </project>
